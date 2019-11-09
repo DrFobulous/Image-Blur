@@ -6,8 +6,8 @@ class Image
     end
 
     def output_image
-        @image_arr.each do |arr|
-            puts arr.join
+        @image_arr.each do |image_element|
+            puts image_element.join
         end
     end
 
